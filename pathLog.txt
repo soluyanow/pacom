@@ -1,0 +1,1 @@
+C:/OpenServer/domains/part-avto.local/bitrix/modules/sale/install/components/bitrix/sale.personal.order/templates/.default/bitrix/C:/OpenServer/domains/part-avto.local/bitrix/components/bitrix/sale.personal.order/templates/.default/bitrix/
