@@ -17,6 +17,7 @@ IncludeTemplateLangFile(__FILE__);
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<?$APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/fonts/roboto/roboto.css");?>
 		<?$APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/themes/".$TEMPLATE_THEME_NAME."/style.css");?>
+        <?$APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/user_style.css");?>
 		<?$APPLICATION->ShowCSS(true, false);?>
 		<?$APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH."/js/jquery-1.11.0.min.js");?>
 		<?$APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH."/js/jquery.easing.1.3.js");?>

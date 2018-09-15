@@ -1,3 +1,4 @@
+<?/*
 <div id="footerTabsCaption">
 	<div class="wrapper">
 		<div class="items">
@@ -122,6 +123,7 @@
 
 
 
+
 <?$APPLICATION->IncludeComponent(
 	"bitrix:catalog.bigdata.products", 
 	".default", 
@@ -195,4 +197,4 @@
 		"CURRENCY_ID" => "RUB"
 	),
 	false
-);?>
+);*/?>

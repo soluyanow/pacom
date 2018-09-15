@@ -1,4 +1,5 @@
-<span class="heading">+7 (800) 505-40-38</span>
+<span class="heading">+7 (4742) 39-06-26</span>
+
 
 <?$APPLICATION->IncludeComponent(
 	"bitrix:form.result.new", 

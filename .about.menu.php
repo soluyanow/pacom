@@ -43,13 +43,6 @@ $aMenuLinks = Array(
 		"" 
 	),
 	Array(
-		"Услуги", 
-		"services/", 
-		Array(), 
-		Array(), 
-		"" 
-	),
-	Array(
 		"Обратная связь", 
 		"callback/", 
 		Array(), 

@@ -1,9 +1,7 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetPageProperty("title", "Каталог товаров");
-$APPLICATION->SetTitle("Каталог товаров");
-?>
-<?$APPLICATION->IncludeComponent(
+$APPLICATION->SetTitle("test");
+?><?$APPLICATION->IncludeComponent(
 	"bitrix:catalog", 
 	".default", 
 	array(
@@ -40,7 +38,6 @@ $APPLICATION->SetTitle("Каталог товаров");
 		"PRODUCT_ID_VARIABLE" => "id",
 		"USE_COMPARE" => "N",
 		"PRICE_CODE" => array(
-			0 => "BASE",
 		),
 		"USE_PRICE_COUNT" => "N",
 		"SHOW_PRICE_COUNT" => "1",
@@ -142,4 +139,4 @@ $APPLICATION->SetTitle("Каталог товаров");
 		)
 	),
 	false
-);?><br /><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
+);?><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
